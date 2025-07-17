@@ -101,9 +101,6 @@ JSDialog.grid = function (
 
 				processedChildren.push(child);
 				prevChild = child;
-			} else if (!isMergedCell) {
-				// empty placeholder to keep correct order
-				L.DomUtil.create('div', 'ui-grid-cell', table);
 			}
 		}
 	}
